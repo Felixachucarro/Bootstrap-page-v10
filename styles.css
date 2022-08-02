@@ -166,3 +166,25 @@ font-family: 'Roboto Slab', serif;
         transform: scale(1.06);
 
          }
+
+.galeria10 img{
+            display: flexbox;
+            
+            flex-wrap: wrap-reverse;
+            justify-content: space-around;
+            max-width: 400px;
+            align-items: star;
+            object-fit: contain;
+            padding-left: 5mm;
+            margin: auto;
+            border-radius: 50px;
+            
+        
+            
+        }
+.galeria10 img:hover {
+            filter: opacity(0.9);
+            transition: transform 0.3s ease-in-out;
+            transform: scale(1.06);
+            color: rgb(231, 112, 112);
+             }
