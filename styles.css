@@ -33,6 +33,38 @@ font-family: 'Roboto Slab', serif;
 .galeria{
     display: grid;
     grid-template-columns: repeat(1px, 1px);
+    
+    
+ .div-imagen {
+    display:inline-block;
+    position:relative;
+    color: #000;
+    background-color: rgba(79, 79, 79, 0.209);
+    
+
+  }
+
+  
+  
+  .div-imagen > div {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-3;
+    padding:10px;
+    margin:45px;
+  }
+  
+  .desvanecer:hover {
+    opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+  }
+
+
     grid-gap: 5px ;
     grid-auto-rows: 70px;
     grid-auto-flow: row dense;
